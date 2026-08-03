@@ -7,6 +7,6 @@ name = input("Please enter your name: ")
 print(len(name))
 dict = {
     "cat" : "lion",
-    "table" : ["kladjlC","dlkjlCMKS"]
+    "table" : ["kladjlC","dlkjlCM"]
 
 }
