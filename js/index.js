@@ -25,35 +25,6 @@ if (shopButton) {
 }
 
 
-// ======================================
-// Greeting Message
-// ======================================
-
-const greeting = document.getElementById("greeting");
-
-if (greeting) {
-
-    const hour = new Date().getHours();
-
-    if (hour < 12) {
-
-        greeting.innerHTML = "Good Morning!";
-
-    }
-
-    else if (hour < 18) {
-
-        greeting.innerHTML = "Good Afternoon!";
-
-    }
-
-    else {
-
-        greeting.innerHTML = "Good Evening!";
-
-    }
-
-}
 
 
 // ======================================
