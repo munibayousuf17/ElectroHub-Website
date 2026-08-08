@@ -58,3 +58,10 @@ def fact(n):
     return (n*(fact(n-1)))
 
 print(fact(5))
+
+def sum(n):
+    if(n==0):
+        return 0
+    return n+ sum(n-1)
+
+print (sum(5))
