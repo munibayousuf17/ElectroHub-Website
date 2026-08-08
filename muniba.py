@@ -27,7 +27,10 @@ num = (2,87,98,56,87,98)
 for nums in num:
     if(nums==x):
         print("Number found at index", idx)
-    idx=idx+1"""
+    idx=idx+1
 
 for seq in range(10):
-    print(seq)
+    print(seq)"""
+
+for i in range (101,0,-1):
+    print(i)
