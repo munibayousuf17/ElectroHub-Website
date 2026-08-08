@@ -76,3 +76,8 @@ def list_print(list, idx=0):
     return list
 
 list_print(list)
+
+f= open("demo.txt","r")
+data = f.read()
+print(data)
+f.close()
