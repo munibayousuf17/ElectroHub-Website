@@ -30,7 +30,18 @@ for nums in num:
     idx=idx+1
 
 for seq in range(10):
-    print(seq)"""
+    print(seq)
 
 for i in range (101,0,-1):
     print(i)
+
+n=5; sum=0
+for i in range(1, n+1):
+    sum+=i
+print (sum)"""
+
+n=5; fact=1
+for i in range(1, n+1):
+    fact*=i
+ 
+print(fact)
