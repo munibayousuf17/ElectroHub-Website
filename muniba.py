@@ -65,3 +65,14 @@ def sum(n):
     return n+ sum(n-1)
 
 print (sum(5))
+
+list = ["muniba", "yousuf", "khan"]
+
+def list_print(list, idx=0):
+    if idx==len(list):
+        return
+    print(list[idx])
+    list_print(list, idx+1)
+    return list
+
+list_print(list)
