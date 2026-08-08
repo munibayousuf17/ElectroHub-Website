@@ -15,7 +15,7 @@ while i<=5:
     i=i+1
     if(i==3):
         i=i+1
-        continue"""
+        continue
 
 str = "Muniba"
 for char in str:
@@ -27,4 +27,7 @@ num = (2,87,98,56,87,98)
 for nums in num:
     if(nums==x):
         print("Number found at index", idx)
-    idx=idx+1
+    idx=idx+1"""
+
+for seq in range(10):
+    print(seq)
