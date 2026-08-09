@@ -81,3 +81,8 @@ f= open("demo.txt","r")
 data = f.read()
 print(data)
 f.close()
+
+f= open("demo.txt","w")
+data =f.write("I am learning python")
+print(data)
+f.close()
