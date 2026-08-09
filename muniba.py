@@ -107,6 +107,9 @@ with open("practice.txt","w") as f:
 
 #OOP in Python
 class car:
-    color = "blue"
-c1= car()
+    def __init__(self,carcolor):
+        self.color=carcolor
+        print("Hey my colr is: ",self.color)
+c1= car("blue")
 print(c1.color)
+
