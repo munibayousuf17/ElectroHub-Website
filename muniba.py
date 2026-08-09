@@ -93,7 +93,7 @@ with open("demo.txt","r") as f:
 
 
 with open("practice.txt","w") as f:
-    f.write("Hey everyone\nthis is my new code")"""
+    f.write("Hey everyone\nthis is my new code")
 
 with open("practice.txt","r") as f:
     data= f.read()
@@ -102,4 +102,11 @@ new_data =data.replace("code", "python code")
 print(new_data)
 
 with open("practice.txt","w") as f:
-    f.write(new_data)
+    f.write(new_data)"""
+
+
+#OOP in Python
+class car:
+    color = "blue"
+c1= car()
+print(c1.color)
