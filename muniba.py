@@ -50,7 +50,7 @@ def sum(a,b):
     s=a+b
     print(s)
     return s
-sum(2,3)"""
+sum(2,3)
 
 def fact(n):
     if(n==0 or n==1):
@@ -86,3 +86,20 @@ f= open("demo.txt","w")
 data =f.write("I am learning python")
 print(data)
 f.close()
+
+with open("demo.txt","r") as f:
+    dataa=f.read()
+   print(dataa)
+
+
+with open("practice.txt","w") as f:
+    f.write("Hey everyone\nthis is my new code")"""
+
+with open("practice.txt","r") as f:
+    data= f.read()
+
+new_data =data.replace("code", "python code")
+print(new_data)
+
+with open("practice.txt","w") as f:
+    f.write(new_data)
