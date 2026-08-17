@@ -102,7 +102,7 @@ new_data =data.replace("code", "python code")
 print(new_data)
 
 with open("practice.txt","w") as f:
-    f.write(new_data)"""
+    f.write(new_data)
 
 
 #OOP in Python
@@ -110,6 +110,14 @@ class car:
     def __init__(self,carcolor):
         self.color=carcolor
         print("Hey my colr is: ",self.color)
-c1= car("blue")
-print(c1.color)
+c1= car("blue")"""
+
+
+class stu:
+    college_name=BAMM PECHS
+    def __init__(self,name):
+        self.name=name
+    
+s1=stu("muniba")
+print(stu.name)
 
