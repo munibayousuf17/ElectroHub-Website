@@ -126,16 +126,16 @@ print(stu.college_name)
 print(s1.hello())"""
 
 class Student:
-    def __init__(self,name,marks)
+    def __init__(self,name,marks):
         self.name=name
         self.marks=marks
     
     def avg(self):
         sum=0
-        for val in marks
-            sum+=marks
+        for val in self.marks:
+            sum+=val
         print("The avg score is: ", sum/3)
     
-    s1=Student("muniba",[89,98,99])
-    s1.avg()
+s1=Student("muniba",[89,98,99])
+s1.avg()
 
