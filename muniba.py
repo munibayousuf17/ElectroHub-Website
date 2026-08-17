@@ -110,7 +110,7 @@ class car:
     def __init__(self,carcolor):
         self.color=carcolor
         print("Hey my colr is: ",self.color)
-c1= car("blue")"""
+c1= car("blue")
 
 
 class stu:
@@ -123,4 +123,19 @@ class stu:
 s1=stu("muniba")
 print(s1.name)
 print(stu.college_name)
-print(s1.hello())
+print(s1.hello())"""
+
+class Student:
+    def __init__(self,name,marks)
+        self.name=name
+        self.marks=marks
+    
+    def avg(self):
+        sum=0
+        for val in marks
+            sum+=marks
+        print("The avg score is: ", sum/3)
+    
+    s1=Student("muniba",[89,98,99])
+    s1.avg()
+
