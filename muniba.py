@@ -114,10 +114,13 @@ c1= car("blue")"""
 
 
 class stu:
-    college_name=BAMM PECHS
+    college_name="BAMMPECHS"
     def __init__(self,name):
         self.name=name
+    def hello(self):
+        return self.name
     
 s1=stu("muniba")
-print(stu.name)
-
+print(s1.name)
+print(stu.college_name)
+print(s1.hello())
