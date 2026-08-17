@@ -158,14 +158,16 @@ s1=Stu()
 s1.welcome()"""
 
 class Car:
+    def __init__(self,type):
+        self.type=type
     @staticmethod
 
     def start():
         print("car started")
     
 class toyota(Car):
-    def __init__(self,name):
+    def __init__(self,name,type):
         self.name=name
-
-c1=toyota("Fortouner")
+        super().__init__(type)
+c1=toyota("Fortuner","diesel")
 print(c1.start())
