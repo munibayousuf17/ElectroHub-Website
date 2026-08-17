@@ -141,7 +141,7 @@ class Student:
     
 s1=Student("muniba",[89,98,99])
 s1.avg()
-s1.hello()"""
+s1.hello()
 
 class Stu:
     __name="anonymous"
@@ -155,4 +155,17 @@ class Stu:
 
 
 s1=Stu()
-s1.welcome()
+s1.welcome()"""
+
+class Car:
+    @staticmethod
+
+    def start():
+        print("car started")
+    
+class toyota(Car):
+    def __init__(self,name):
+        self.name=name
+
+c1=toyota("Fortouner")
+print(c1.start())
