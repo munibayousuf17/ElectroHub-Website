@@ -126,6 +126,9 @@ print(stu.college_name)
 print(s1.hello())"""
 
 class Student:
+    @staticmethod
+    def hello():
+        print("hello")
     def __init__(self,name,marks):
         self.name=name
         self.marks=marks
@@ -138,4 +141,5 @@ class Student:
     
 s1=Student("muniba",[89,98,99])
 s1.avg()
+s1.hello()
 
