@@ -123,7 +123,7 @@ class stu:
 s1=stu("muniba")
 print(s1.name)
 print(stu.college_name)
-print(s1.hello())"""
+print(s1.hello())
 
 class Student:
     @staticmethod
@@ -141,5 +141,18 @@ class Student:
     
 s1=Student("muniba",[89,98,99])
 s1.avg()
-s1.hello()
+s1.hello()"""
 
+class Stu:
+    __name="anonymous"
+
+    def __hello(self):
+        print("Hello")
+
+
+    def welcome(self):
+        self.__hello()
+
+
+s1=Stu()
+s1.welcome()
